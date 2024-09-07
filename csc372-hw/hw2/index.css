@@ -1,0 +1,88 @@
+
+body {
+    font-family: Georgia, Garamond, serif;
+    background-color: #FFFFFF; 
+    color: #404040; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    color: #A4A400;
+    text-align: center;
+    font-size: 26pt;
+    font-weight: bold;
+    margin-top: 20px;
+    border-bottom: 2px solid #A4A400; 
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    color: #A4A400;
+    font-size: 20pt;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 20px;
+    border-top: 2px solid #A4A400;
+}
+
+p {
+    font-size: 12pt;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+a {
+    color: #A4A400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 10pt;
+    color: #808080;
+    margin-top: 40px;
+    border-top: 1px solid #808080;
+    padding-top: 20px;
+}
+
+body {
+    background-image: url('images/silverware.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed; 
+}
+
+.container {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    background-color: #A4A400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #888800;
+}

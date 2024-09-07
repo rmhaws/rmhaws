@@ -1,0 +1,61 @@
+/* Extra Features: Pie bullt and Background Image */
+body {
+    background: url('images/silverware.jpg') repeat fixed;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    background-color: white;
+}
+
+h1, h2, h3 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 22pt;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 18pt;
+    text-align: left;
+    text-decoration: underline;
+    border-top: 2px solid #404040; 
+    padding-top: 5px; 
+    margin-top: 20px;  
+}
+
+h3 {
+    font-size: 18pt;
+    text-align: left;
+    text-decoration: underline;
+}
+
+blockquote {
+    background-color: #FFFFA8;
+    padding: 10px;
+    border-left: 5px solid #A4A400;
+    margin: 20px;
+    font-style: italic;
+}
+
+pre {
+    font-family: monospace;
+}
+
+a {
+    color: #A4A400;
+}
+
+ul {
+    list-style-image: url('images/pie_icon.gif');
+}
+
+.double-underline {
+    text-decoration: underline;
+    border-bottom: 1px solid;
+    padding-bottom: 1px;
+}
