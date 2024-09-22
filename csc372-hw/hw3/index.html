@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNCG Food Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>UNCG Food and Drink Recommendations</h1>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Welcome Foodies!</h2>
+            <p>Craving some delectable bites near campus? You've come to the right place! We've handpicked a selection of must-try dishes that will satisfy 
+                your cravings and introduce you to new favorites. Whether you’re in the mood for a rich and creamy cappuccino, a savory sushi roll, or a juicy 
+                bacon cheeseburger, we’ve got something for everyone. Get ready to embark on a flavorful journey through the top food spots around the Petty 
+                building, all within walking distance. Let’s dive in and discover the best food and drink options UNCG has to offer!
+        </section>
+
+        <section id="meal-plan-link">
+            <a href="mealplan.html">Create Your Meal Plan</a>
+        </section>
+
+        <section id="recommendations">
+            <h2>Top Recommendations</h2>
+            <article class="recommendation">
+                <h3>1. Tate Street Coffee House</h3>
+                <p>Location: 334 Tate St, Greensboro, NC 27403</p>
+                <p>Specialties: Coffee, Pastries, Sandwiches</p>
+                <p>Hours: Mon-Fri 7:00am - 9:00pm, Sat-Sun 8:00am - 7:00pm</p>
+                <div class="dishes">
+                    <div class="dish-container" onclick="showDishDetails('Coffee', 'A rich and creamy cappuccino.', '$3.50', this)">
+                        <img src="images/coffee.jpg" alt="Coffee">
+                        <p>Coffee</p>
+                    </div>
+                    <div class="dish-container" onclick="showDishDetails('Sandwich', 'A delicious turkey club sandwich.', '$6.50', this)">
+                        <img src="images/sandwich.jpg" alt="Sandwich">
+                        <p>Sandwich</p>
+                    </div>
+                    <div class="dish-container" onclick="showDishDetails('Pastry', 'A fresh-baked croissant.', '$2.50', this)">
+                        <img src="images/pastry.jpg" alt="Pastry">
+                        <p>Pastry</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="recommendation">
+                <h3>2. Sushi Republic</h3>
+                <p>Location: 329 Tate St, Greensboro, NC 27403</p>
+                <p>Specialties: Sushi, Japanese Cuisine</p>
+                <p>Hours: Mon-Sat 11:00am - 10:00pm, Sun Closed</p>
+                <div class="dishes">
+                    <div class="dish-container" onclick="showDishDetails('Sushi Roll', 'A delicious dragon roll.', '$12.00', this)">
+                        <img src="images/sushi.jpg" alt="Sushi">
+                        <p>Sushi Roll</p>
+                    </div>
+                    <div class="dish-container" onclick="showDishDetails('Tempura', 'Crispy tempura shrimp.', '$8.00', this)">
+                        <img src="images/tempura.jpg" alt="Tempura">
+                        <p>Tempura</p>
+                    </div>
+                    <div class="dish-container" onclick="showDishDetails('Miso Soup', 'Traditional Japanese miso soup.', '$3.00', this)">
+                        <img src="images/miso.jpg" alt="Miso Soup">
+                        <p>Miso Soup</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="recommendation">
+                <h3>3. Old Town Draught House</h3>
+                <p>Location: 1205 Spring Garden St, Greensboro, NC 27403</p>
+                <p>Specialties: Burgers, Craft Beer</p>
+                <p>Hours: Mon-Sun 11:00am - 2:00am</p>
+                <div class="dishes">
+                    <div class="dish-container" onclick="showDishDetails('Burger', 'A juicy bacon cheeseburger.', '$10.00', this)">
+                        <img src="images/burger.jpg" alt="Burger">
+                        <p>Burger</p>
+                    </div>
+                    <div class="dish-container" onclick="showDishDetails('Craft Beer', 'A refreshing local IPA.', '$5.00', this)">
+                        <img src="images/beer.jpg" alt="Craft Beer">
+                        <p>Craft Beer</p>
+                    </div>
+                    <div class="dish-container" onclick="showDishDetails('Fries', 'Crispy garlic parmesan fries.', '$4.00', this)">
+                        <img src="images/fries.jpg" alt="Fries">
+                        <p>Fries</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 UNCG Food Blog</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

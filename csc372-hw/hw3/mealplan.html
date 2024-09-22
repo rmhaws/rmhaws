@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Plan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Create Your Meal Plan</h1>
+    </header>
+    <main>
+        <div id="meal-plan-container">
+            <section id="available-dishes">
+                <h2>Available Dishes</h2>
+                <ul id="dish-list">
+                    <li onclick="addToMealPlan('Coffee', 3.50)">Coffee - $3.50</li>
+                    <li onclick="addToMealPlan('Sandwich', 6.50)">Sandwich - $6.50</li>
+                    <li onclick="addToMealPlan('Pastry', 2.50)">Pastry - $2.50</li>
+                    <li onclick="addToMealPlan('Sushi Roll', 12.00)">Sushi Roll - $12.00</li>
+                    <li onclick="addToMealPlan('Tempura', 8.00)">Tempura - $8.00</li>
+                    <li onclick="addToMealPlan('Miso Soup', 3.00)">Miso Soup - $3.00</li>
+                    <li onclick="addToMealPlan('Burger', 10.00)">Burger - $10.00</li>
+                    <li onclick="addToMealPlan('Craft Beer', 5.00)">Craft Beer - $5.00</li>
+                    <li onclick="addToMealPlan('Fries', 4.00)">Fries - $4.00</li>
+                </ul>
+            </section>
+            
+            <section id="meal-plan">
+                <h2>Your Meal Plan</h2>
+                <ul id="meal-plan-list">
+                </ul>
+                <p>Total Cost: <span id="total-cost">$0.00</span></p>
+            </section>
+        </div>
+        
+        <section id="back-link">
+            <a href="index.html">Back to Main Page</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 UNCG Food Blog</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
