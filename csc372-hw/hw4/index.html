@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>ROCK PAPER SCISSORS GAME. GO!</h1>
+
+    <div class="game-container">
+        <!-- Player's throw section -->
+        <div class="column">
+            <h2>Your Throw</h2>
+            <div class="choices">
+                <img id="rock" src="images/rock.PNG" alt="Rock" onclick="playerChoice('rock')">
+                <img id="paper" src="images/paper.PNG" alt="Paper" onclick="playerChoice('paper')">
+                <img id="scissors" src="images/scissors.PNG" alt="Scissors" onclick="playerChoice('scissors')">
+            </div>
+        </div>
+
+        <!-- Computer's throw section -->
+        <div class="column">
+            <h2>Computer Throw</h2>
+            <img id="computer-choice" src="images/question-mark.PNG" alt="Computer choice">
+        </div>
+
+        <!-- Results and score section -->
+        <div class="column">
+            <div id="score-results-container">
+                <div id="score-section">
+                    <h2>Score</h2>
+                    <p>Wins: <span id="wins">0</span></p>
+                    <p>Losses: <span id="losses">0</span></p>
+                    <p>Ties: <span id="ties">0</span></p>
+                    <button onclick="resetScore()">Reset Score</button>
+                </div>
+                <div id="result-section">
+                    <h2>Results</h2>
+                    <p id="result-text">Waiting for your move...</p>
+                </div>
+            </div>
+            <button onclick="resetGame()">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
