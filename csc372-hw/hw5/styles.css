@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cfc6c6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e98b3;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #100a04;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d52822;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.repo-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.repo-card h3 {
+    margin: 0 0 10px;
+}
+
+.repo-card p {
+    margin: 5px 0;
+}
+
+.repo-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.repo-card a:hover {
+    text-decoration: underline;
+}
